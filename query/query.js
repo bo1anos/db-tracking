@@ -1,8 +1,6 @@
 const inquirer = require ("inquirer");
 const table = require ("console.table");
 const db = require("../config/connection");
-const { end } = require("../config/connection");
-const { get } = require("express/lib/request");
 const optionList ={
     type : "list",
     message:"what are you looking to do today?",

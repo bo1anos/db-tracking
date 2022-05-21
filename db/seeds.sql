@@ -5,7 +5,7 @@ VALUES ('TECH'),
         ('TEACHER')
         ('WASHER');
 
-INSERT INTO deptRole (title, salary, department_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES ('Web Developer', 70000, 1),
         ('Head Chef', 100000, 1),
         ('Junior Dev', 40000, 1),
